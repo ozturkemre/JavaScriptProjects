@@ -1,0 +1,13 @@
+.wrapper {
+    text-align: center;
+
+}
+
+
+.rainbow-text {
+    top: 50%;
+    left: 45%;
+    position: absolute;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+
+}

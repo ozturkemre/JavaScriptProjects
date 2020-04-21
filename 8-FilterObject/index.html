@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filter Objects</title>
+</head>
+<body>
+
+<section id="store" class="store py-5">
+    <div class="container">
+        <!-- section title -->
+        <div class="row">
+            <div class="col-10 mx-auto col-sm-6 text-center">
+                <h1 class="text-capitalize">Search&Filter Vehicles</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap">
+                <a href="#" class="btn btn-outline-secondary btn-black filter-btn m-2" data-filter="all"> ALL</a>
+                <a href="#" class="btn btn-outline-secondary btn-black filter-btn m-2" data-filter="bicycles">BICYCLES</a>
+                <a href="#" class="btn btn-outline-secondary btn-black filter-btn m-2"
+                   data-filter="cars">CARS</a>
+                <a href="#" class="btn btn-outline-secondary btn-black filter-btn m-2" data-filter="combats">COMBATS</a>
+                <a href="#" class="btn btn-outline-secondary btn-black filter-btn m-2"
+                   data-filter="trucks">TRUCKS</a>
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-10 mx-auto col-md-6">
+                <form>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text search-box" id="search-icon"><i
+                                    class="fas fa-search"></i></span>
+                        </div>
+                        <label for="search-item"></label><input type="text" class="form-control" placeholder='item....'
+                                                                id="search-item">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cars" data-item="cars">
+            <div class="card ">
+                <div class="img-container">
+                    <img src="img/car-1.jpg" class="card-img-top store-img" alt="">
+                    <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                </div>
+                <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                        <h5>car item</h5>
+                        <h5 class="store-item-value">₺ <strong class="font-weight-bold">5</strong></h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item bicycles" data-item="bicycles">
+            <div class="card ">
+                <div class="img-container">
+                    <img src="img/bicycle-1.jpg" class="card-img-top store-img" alt="">
+                    <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                </div>
+                <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                        <h5>bicycle item</h5>
+                        <h5 class="store-item-value">₺ <strong class="font-weight-bold">5</strong></h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item trucks" data-item="trucks">
+            <div class="card ">
+                <div class="img-container">
+                    <img src="img/truck-1.jpg" class="card-img-top store-img" alt="">
+                    <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                </div>
+                <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                        <h5>truck item</h5>
+                        <h5 class="store-item-value">₺ <strong class="font-weight-bold">5</strong></h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item combats" data-item="combats">
+            <div class="card ">
+                <div class="img-container">
+                    <img src="img/combat-1.jpg" class="card-img-top store-img" alt="">
+                    <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                </div>
+                <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                        <h5>combat item</h5>
+                        <h5 class="store-item-value">₺ <strong class="font-weight-bold">10</strong></h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cars" data-item="cars">
+            <div class="card ">
+                <div class="img-container">
+                    <img src="img/car-2.jpg" class="card-img-top store-img" alt="">
+                    <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                </div>
+                <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                        <h5>car item</h5>
+                        <h5 class="store-item-value">₺ <strong class="font-weight-bold">10</strong></h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item bicycles" data-item="bicycles">
+            <div class="card ">
+                <div class="img-container">
+                    <img src="img/bicycle-2.jpg" class="card-img-top store-img" alt="">
+                    <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                </div>
+                <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                        <h5>bicycle item</h5>
+                        <h5 class="store-item-value">₺ <strong class="font-weight-bold">10</strong></h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item trucks" data-item="trucks">
+            <div class="card ">
+                <div class="img-container">
+                    <img src="img/truck-2.jpg" class="card-img-top store-img" alt="">
+                    <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                </div>
+                <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                        <h5>truck item</h5>
+                        <h5 class="store-item-value">₺ <strong class="font-weight-bold">10</strong></h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item combats" data-item="combats">
+            <div class="card ">
+                <div class="img-container">
+                    <img src="img/combat-2.jpg" class="card-img-top store-img" alt="">
+                    <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                </div>
+                <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                        <h5>combat item</h5>
+                        <h5 class="store-item-value">₺ <strong class="font-weight-bold">15</strong></h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cars" data-item="cars">
+            <div class="card ">
+                <div class="img-container">
+                    <img src="img/car-3.jpg" class="card-img-top store-img" alt="">
+                    <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                </div>
+                <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                        <h5>car item</h5>
+                        <h5 class="store-item-value">₺ <strong class="font-weight-bold">15</strong></h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item bicycles" data-item="bicycles">
+            <div class="card ">
+                <div class="img-container">
+                    <img src="img/bicycle-3.jpg" class="card-img-top store-img" alt="">
+                    <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                </div>
+                <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                        <h5>bicycle item</h5>
+                        <h5 class="store-item-value">₺ <strong class="font-weight-bold">15</strong></h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- end of card-->
+        </div>
+        <!--end of single store item-->
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item trucks" data-item="trucks">
+            <div class="card ">
+                <div class="img-container">
+                    <img src="img/truck-3.jpg" class="card-img-top store-img" alt="">
+                    <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+                </div>
+                <div class="card-body">
+                    <div class="card-text d-flex justify-content-between text-capitalize">
+                        <h5>truck item</h5>
+                        <h5 class="store-item-value">₺ <strong class="font-weight-bold">15</strong></h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- end of card-->
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/stylesheet.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
